@@ -1,0 +1,155 @@
+.banner {
+  background-image: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 60px;
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.container {
+ width: 960px;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.banner img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 30px;
+}
+
+.intro {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.presentation {
+  padding-left: 10px;
+  opacity: 0,5;
+}
+
+.intro p {
+  font-size: 30px;
+  opacity: 0,5;
+}
+
+.intro p:hover {
+  opacity: 1;
+}
+.intro h1 {
+  font-size: 50px;
+  margin-top: 0ch;
+  opacity: 0,5;
+}
+
+.intro h1:hover {
+  opacity: 1;
+}
+
+.cards {
+  display: flex;
+  background-color: none;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  justify-content: space-around;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.card {
+  display: flex;
+  width: 360px;
+  padding: 10px;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  text-align: center;
+
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  box-sizing: content-box;
+  border: 5px solid transparent;
+}
+
+.card::before, .card::after, span::before, span::after {
+    display: block;
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+.card::before {
+    top: -2px;
+    left: -2px;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+  }
+
+.card::after {
+    top: -2px;
+    right: -2px;
+    border-top: 4px solid white;
+    border-right: 4px solid white;
+}
+span::before {
+    bottom: -2px;
+    left: -2px;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+}
+span::after {
+    bottom: -2px;
+    right: -2px;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+}
+
+.icons img {
+  object-fit: contain;
+  height: 55px;
+  width: 55px;
+  opacity: 1;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.card h3 {
+  opacity: 1;
+  color:white;
+  text-align: left;
+  margin-left: 6px;
+}
+
+.card p {
+  color:white;
+  font-size: 20px;
+  text-align: left;
+}
