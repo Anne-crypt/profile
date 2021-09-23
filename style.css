@@ -60,6 +60,7 @@ body {
 .intro p:hover {
   opacity: 1;
 }
+
 .intro h1 {
   font-size: 50px;
   margin-top: 0ch;
@@ -104,31 +105,6 @@ body {
     position: absolute;
 }
 
-/* .card::before {
-    top: -2px;
-    left: -2px;
-    border-top: 4px solid white;
-    border-left: 4px solid white;
-  }
-
-.card::after {
-    top: -2px;
-    right: -2px;
-    border-top: 4px solid white;
-    border-right: 4px solid white;
-} */
-span::before {
-    bottom: -2px;
-    left: -2px;
-    border-bottom: 4px solid white;
-    border-left: 4px solid white;
-}
-span::after {
-    bottom: -2px;
-    right: -2px;
-    border-bottom: 4px solid white;
-    border-right: 4px solid white;
-}
 
 .icons img {
   object-fit: contain;
