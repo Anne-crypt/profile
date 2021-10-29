@@ -1,43 +1,39 @@
-.banner {
-  background-image: no-repeat center center fixed;
+body {
+  font-family: 'Roboto Mono', monospace;
+  background: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 60px;
   min-height: 100%;
   min-width: 1024px;
-
   /* Set up proportionate scaling */
   width: 100%;
   height: auto;
 
   /* Set up positioning */
-  position: fixed;
+  /* position: fixed;
   top: 0;
-  left: 0;
+  left: 0; */
 }
 
 .container {
- width: 960px;
+  width: 960px;
 }
 
-body {
-  font-family: 'Roboto Mono', monospace;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
+.banner {
+  padding-top: 60px;
 }
 
 .banner img {
   height: 200px;
   width: 200px;
-  border-radius: 50%;
   object-fit: cover;
   margin-right: 30px;
+}
+
+.intro img {
+  border-radius: 50%;
 }
 
 .intro {
@@ -45,6 +41,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
 }
 
 .presentation {
