@@ -10,11 +10,6 @@ body {
   /* Set up proportionate scaling */
   width: 100%;
   height: auto;
-
-  /* Set up positioning */
-  /* position: fixed;
-  top: 0;
-  left: 0; */
 }
 
 .container {
@@ -71,7 +66,7 @@ body {
 .cards {
   display: flex;
   background-color: none;
-  margin-top: 35px;
+  margin-top: 11%;
   margin-bottom: 50px;
   justify-content: space-around;
   margin-right: 20px;
@@ -80,15 +75,14 @@ body {
 
 .card {
   display: flex;
-  width: 360px;
+  width: 28%;
   padding: 10px;
   flex-wrap: wrap;
   /* justify-content: center; */
-  text-align: center;
+  text-align: justify;
 
   background: none;
   border: none;
-  cursor: pointer;
   color: white;
   box-sizing: content-box;
   border: 5px solid transparent;
@@ -102,6 +96,9 @@ body {
     position: absolute;
 }
 
+.icons {
+  text-align: center;
+}
 
 .icons img {
   object-fit: contain;
@@ -116,13 +113,10 @@ body {
 
 .card h3 {
   opacity: 1;
-  color:white;
   text-align: left;
-  margin-left: 6px;
 }
 
 .card p {
-  color:white;
   font-size: 20px;
   text-align: left;
 }
